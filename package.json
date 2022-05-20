@@ -1,0 +1,15 @@
+{
+  "name": "users-graphiql",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vit0rr/users-graphiql.git",
+  "author": "Vitor <vi.souza.almeida@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "lodash": "^4.17.21"
+  }
+}
