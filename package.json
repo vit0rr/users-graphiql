@@ -1,6 +1,6 @@
 {
   "name": "users-graphiql",
-  "type": "commonjs",
+  "type": "module",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/vit0rr/users-graphiql.git",
