@@ -3,6 +3,7 @@ import { graphqlHTTP } from 'express-graphql';
 import schema from './schema/schema.js';
 
 const app = express();
+const port = 4000;
 
 app.use(
   '/graphql',
@@ -12,6 +13,6 @@ app.use(
   })
 );
 
-app.listen(4000, () => {
-  console.log('listening on 4000');
+app.listen(port, () => {
+  console.log(`Cool! GraphQL server is running on: http://localhost:${port}`);
 });
