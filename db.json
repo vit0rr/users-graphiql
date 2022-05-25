@@ -1,11 +1,39 @@
 {
   "users": [
-    { "id": "23", "firstName": "Vitor", "age": 20, "companyId": "2" },
-    { "id": "40", "firstName": "João", "age": 20, "companyId": "2" },
-    { "id": "41", "firstName": "Sibelius", "age": 87, "companyId": "1" }
+    {
+      "id": "23",
+      "firstName": "Vitor",
+      "age": 20,
+      "companyId": "2"
+    },
+    {
+      "id": "40",
+      "firstName": "João",
+      "age": 20,
+      "companyId": "2"
+    },
+    {
+      "id": "41",
+      "firstName": "Sibelius",
+      "age": 87,
+      "companyId": "1"
+    },
+    {
+      "firstName": "Danilo",
+      "age": 23,
+      "id": "sRKFEfJ"
+    }
   ],
   "companies": [
-    { "id": "1", "name": "Google", "description": "Who don't know Google?" },
-    { "id": "2", "name": "Apple", "description": "Very expansive" }
+    {
+      "id": "1",
+      "name": "Google",
+      "description": "Who don't know Google?"
+    },
+    {
+      "id": "2",
+      "name": "Apple",
+      "description": "Very expansive"
+    }
   ]
 }
