@@ -108,6 +108,18 @@ const mutation = new GraphQLObjectType({
           .then((res) => res.data);
       },
     },
+    addCompany: {
+      type: CompanyType,
+      args: {
+        name: { type: new GraphQLNonNull(GraphQLString) },
+        description: { type: GraphQLString },
+      },
+      resolve(parentValue, { name, description }) {
+        return axios
+          .post("http://localhost:3000/companies", { name, description })
+          .then((res) => res.data);
+      },
+    },
   },
 });
 
