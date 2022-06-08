@@ -133,6 +133,17 @@ const mutation = new GraphQLObjectType({
           .then((res) => res.data);
       },
     },
+    deleteCompany: {
+      type: CompanyType,
+      args: {
+        id: { type: new GraphQLNonNull(GraphQLString) },
+      },
+      resolve(parentValue, { id }) {
+        return axios
+          .delete(`http://localhost:3000/companies/${id}`)
+          .then((res) => res.data);
+      },
+    },
   },
 });
 
